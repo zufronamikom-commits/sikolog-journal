@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ROAD TO JOURNAL</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Caveat:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<aside id="sb"><div class="brand"><div class="logo"><img src="RTJ.jpeg" alt="RTJ"></div><span>ROAD TO JOURNAL</span></div>
+<div class="acc"><div class="lab" style="margin-bottom:5px">Account</div><select id="accSel"></select></div>
+<nav class="nav" id="nav"></nav>
+<button class="ib" id="col" style="margin-top:8px">⇤ <span class="lb">Collapse</span></button></aside>
+<main><header><button class="ib" id="menu">☰</button><h1 id="ttl">Dashboard</h1><button class="btn y" onclick="newTrade()">+ Add Trade</button><button class="ib" id="th" title="Toggle theme">◐</button></header>
+<div id="view"></div></main></div>
+<div class="modal" id="md"><div class="mb" id="mb"></div></div><div class="toast" id="ts"></div>
+<input type="file" id="imp" accept=".json,application/json" hidden><input type="file" id="impn" accept=".json,application/json" hidden>
+<script src="script.js"></script>
+</body>
+</html>
